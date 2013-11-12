@@ -1,0 +1,1783 @@
+2013/11/05 10:59:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/index.php/about
+---
+2013/11/05 10:59:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/index.php/about
+---
+2013/11/05 11:00:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/index.php/about
+---
+2013/11/05 11:26:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/
+---
+2013/11/05 11:26:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "buy".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('buy')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/buy
+HTTP_REFERER=http://localhost/dweling/advice
+---
+2013/11/05 11:26:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "events".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('events')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/events
+HTTP_REFERER=http://localhost/dweling/buy
+---
+2013/11/05 11:26:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "buy".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('buy')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/buy
+HTTP_REFERER=http://localhost/dweling/events
+---
+2013/11/05 11:26:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/buy
+---
+2013/11/05 11:27:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/
+---
+2013/11/05 11:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "buy".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('buy')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/buy
+HTTP_REFERER=http://localhost/dweling/advice
+---
+2013/11/05 11:27:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "events".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('events')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/events
+HTTP_REFERER=http://localhost/dweling/buy
+---
+2013/11/05 11:28:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/events
+---
+2013/11/05 11:49:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/advice
+---
+2013/11/05 13:15:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/advice
+---
+2013/11/05 16:37:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/
+---
+2013/11/05 16:44:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:44:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 16:46:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 16:46:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 16:46:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 16:46:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 16:46:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 16:46:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 16:46:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 16:46:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 16:46:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "buy".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('buy')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/buy
+HTTP_REFERER=http://localhost/dweling/advice
+---
+2013/11/05 16:46:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/buy
+---
+2013/11/05 16:46:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:46:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about/index".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about/index')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about/index
+---
+2013/11/05 16:47:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about/index".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about/index')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about/index
+---
+2013/11/05 16:48:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:49:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:49:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:49:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:49:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:49:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:49:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:49:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:49:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:49:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:49:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:49:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:50:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:50:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:50:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:50:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:50:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:50:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:53:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:54:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:55:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:55:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:55:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:55:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:55:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:55:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:55:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/about
+---
+2013/11/05 16:57:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 16:57:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 16:57:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 16:57:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 16:57:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 16:57:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 16:58:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 16:58:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 16:58:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 16:58:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 16:58:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 16:58:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 16:58:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 16:58:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 17:01:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "advice".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('advice')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/advice
+HTTP_REFERER=http://localhost/dweling/about
+---
+2013/11/05 17:02:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contact".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('contact')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/contact
+---
+2013/11/05 17:05:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "advice".' in C:\xampp\htdocs\dweling\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CController.php(270): CController->missingAction('advice')
+#1 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(282): CController->run('advice')
+#2 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('site/advice')
+#3 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dweling/site/advice
+HTTP_REFERER=http://localhost/dweling/
+---
+2013/11/05 17:10:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "events".' in C:\xampp\htdocs\dweling\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CController.php(270): CController->missingAction('events')
+#1 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(282): CController->run('events')
+#2 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('site/events')
+#3 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dweling/site/events
+HTTP_REFERER=http://localhost/dweling/site/buy
+---
+2013/11/05 17:10:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "events".' in C:\xampp\htdocs\dweling\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CController.php(270): CController->missingAction('events')
+#1 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(282): CController->run('events')
+#2 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('site/events')
+#3 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dweling/site/events
+HTTP_REFERER=http://localhost/dweling/site/buy
+---
+2013/11/12 06:37:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:37:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:37:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:37:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:38:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/logo.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:38:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:38:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/social-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/social-s...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/social-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:38:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/login-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/login-sp...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/login-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:38:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:38:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:38:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:40:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:40:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/logo.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:40:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/login-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/login-sp...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/login-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:40:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/social-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/social-s...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/social-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:40:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:40:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:40:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:40:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:40:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/login-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/login-sp...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/login-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:40:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:40:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:40:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/social-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/social-s...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/social-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:40:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/logo.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:40:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:41:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/logo.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:41:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:41:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/login-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/login-sp...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/login-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:41:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/social-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/social-s...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/social-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:41:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:41:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:41:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:41:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/social-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/social-s...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/social-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:41:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/logo.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:41:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/login-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/login-sp...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/login-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:41:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:41:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:41:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:41:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:43:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:43:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:43:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/logo.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:43:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/social-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/social-s...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/social-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:43:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/login-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/login-sp...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/login-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:43:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:43:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:44:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/social-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/social-s...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/social-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:44:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/login-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/login-sp...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/login-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:44:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/logo.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:44:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:44:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:44:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:44:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:47:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/login-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/login-sp...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/login-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:47:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:47:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:47:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/logo.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:47:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/social-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/social-s...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/social-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:47:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:47:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:47:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/login-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/login-sp...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/login-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:47:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:47:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:47:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/social-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/social-s...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/social-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:47:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/logo.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:47:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:47:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:49:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/logo.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:49:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:49:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/social-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/social-s...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/social-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:49:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/login-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/login-sp...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/login-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:49:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:49:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:49:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:50:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:50:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/social-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/social-s...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/social-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:50:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/logo.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:50:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:50:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:50:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/login-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/login-sp...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/login-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:50:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:52:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:52:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/login-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/login-sp...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/login-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:52:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/social-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/social-s...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/social-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:52:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/logo.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:52:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:52:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:52:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:53:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:53:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/logo.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:53:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:53:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/login-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/login-sp...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/login-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:53:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/social-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/social-s...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/social-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:53:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:53:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:54:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/logo.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:54:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:54:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/social-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/social-s...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/social-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:54:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:54:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/login-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/login-sp...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/login-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:54:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:54:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:54:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/login-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/login-sp...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/login-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:54:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:54:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/social-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/social-s...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/social-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:54:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/logo.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:54:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.woff".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.woff
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:54:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-bold-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-bold-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:54:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/opensans-regular-webfont.ttf".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/opensans-...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/fonts/opensans-regular-webfont.ttf
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:57:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/logo.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:57:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/social-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/social-s...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/social-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 06:57:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/login-sprite.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/login-sp...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/login-sprite.png
+HTTP_REFERER=http://localhost/dweling/css/style.css
+---
+2013/11/12 07:48:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\xampp\htdocs\dweling\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CController.php(270): CController->missingAction('about')
+#1 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(282): CController->run('about')
+#2 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dweling/site/about
+HTTP_REFERER=http://localhost/dweling/site/events
+---
+2013/11/12 07:53:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "privacy".' in C:\xampp\htdocs\dweling\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CController.php(270): CController->missingAction('privacy')
+#1 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(282): CController->run('privacy')
+#2 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('site/privacy')
+#3 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dweling/site/privacy
+HTTP_REFERER=http://localhost/dweling/site/terms
+---
+2013/11/12 08:06:08 [error] [php] Illegal string offset 'href' (C:\xampp\htdocs\dweling\framework\web\helpers\CHtml.php:410)
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\zii\widgets\CMenu.php(180): CMenu->renderMenuRecursive()
+#1 C:\xampp\htdocs\dweling\framework\zii\widgets\CMenu.php(167): CMenu->renderMenu()
+#2 C:\xampp\htdocs\dweling\framework\web\CBaseController.php(173): CMenu->run()
+#3 C:\xampp\htdocs\dweling\protected\views\layouts\main.php(80): SiteController->widget()
+#4 C:\xampp\htdocs\dweling\framework\web\CBaseController.php(126): require()
+#5 C:\xampp\htdocs\dweling\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#6 C:\xampp\htdocs\dweling\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#7 C:\xampp\htdocs\dweling\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#8 C:\xampp\htdocs\dweling\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#9 C:\xampp\htdocs\dweling\framework\web\CBaseController.php(206): CContentDecorator->run()
+#10 C:\xampp\htdocs\dweling\framework\web\CBaseController.php(300): SiteController->endWidget()
+#11 C:\xampp\htdocs\dweling\protected\views\layouts\column1.php(6): SiteController->endContent()
+#12 C:\xampp\htdocs\dweling\framework\web\CBaseController.php(126): require()
+#13 C:\xampp\htdocs\dweling\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#14 C:\xampp\htdocs\dweling\framework\web\CController.php(784): SiteController->renderFile()
+#15 C:\xampp\htdocs\dweling\protected\controllers\SiteController.php(38): SiteController->render()
+#16 C:\xampp\htdocs\dweling\framework\web\actions\CInlineAction.php(49): SiteController->actionAdvice()
+#17 C:\xampp\htdocs\dweling\framework\web\CController.php(308): CInlineAction->runWithParams()
+#18 C:\xampp\htdocs\dweling\framework\web\CController.php(286): SiteController->runAction()
+#19 C:\xampp\htdocs\dweling\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#20 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(282): SiteController->run()
+#21 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#22 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\dweling\index.php(13): CWebApplication->run()
+REQUEST_URI=/dweling/site/advice
+in C:\xampp\htdocs\dweling\protected\views\layouts\main.php (80)
+in C:\xampp\htdocs\dweling\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\dweling\protected\controllers\SiteController.php (38)
+2013/11/12 08:15:37 [error] [php] Array to string conversion (C:\xampp\htdocs\dweling\protected\views\layouts\main.php:73)
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 C:\xampp\htdocs\dweling\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 C:\xampp\htdocs\dweling\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 C:\xampp\htdocs\dweling\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 C:\xampp\htdocs\dweling\framework\web\CBaseController.php(300): SiteController->endWidget()
+#5 C:\xampp\htdocs\dweling\protected\views\layouts\column1.php(6): SiteController->endContent()
+#6 C:\xampp\htdocs\dweling\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\dweling\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 C:\xampp\htdocs\dweling\framework\web\CController.php(784): SiteController->renderFile()
+#9 C:\xampp\htdocs\dweling\protected\controllers\SiteController.php(38): SiteController->render()
+#10 C:\xampp\htdocs\dweling\framework\web\actions\CInlineAction.php(49): SiteController->actionAdvice()
+#11 C:\xampp\htdocs\dweling\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\dweling\framework\web\CController.php(286): SiteController->runAction()
+#13 C:\xampp\htdocs\dweling\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\dweling\index.php(13): CWebApplication->run()
+REQUEST_URI=/dweling/site/advice
+in C:\xampp\htdocs\dweling\protected\views\layouts\main.php (73)
+in C:\xampp\htdocs\dweling\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\dweling\protected\controllers\SiteController.php (38)
+2013/11/12 08:16:30 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (C:\xampp\htdocs\dweling\framework\web\helpers\CHtml.php:103)
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\helpers\CHtml.php(158): renderAttributes()
+#1 C:\xampp\htdocs\dweling\framework\web\helpers\CHtml.php(412): tag()
+#2 C:\xampp\htdocs\dweling\framework\zii\widgets\CMenu.php(248): link()
+#3 C:\xampp\htdocs\dweling\framework\zii\widgets\CMenu.php(216): CMenu->renderMenuItem()
+#4 C:\xampp\htdocs\dweling\framework\zii\widgets\CMenu.php(180): CMenu->renderMenuRecursive()
+#5 C:\xampp\htdocs\dweling\framework\zii\widgets\CMenu.php(167): CMenu->renderMenu()
+#6 C:\xampp\htdocs\dweling\framework\web\CBaseController.php(173): CMenu->run()
+#7 C:\xampp\htdocs\dweling\protected\views\layouts\main.php(80): SiteController->widget()
+#8 C:\xampp\htdocs\dweling\framework\web\CBaseController.php(126): require()
+#9 C:\xampp\htdocs\dweling\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#10 C:\xampp\htdocs\dweling\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#11 C:\xampp\htdocs\dweling\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#12 C:\xampp\htdocs\dweling\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#13 C:\xampp\htdocs\dweling\framework\web\CBaseController.php(206): CContentDecorator->run()
+#14 C:\xampp\htdocs\dweling\framework\web\CBaseController.php(300): SiteController->endWidget()
+#15 C:\xampp\htdocs\dweling\protected\views\layouts\column1.php(6): SiteController->endContent()
+#16 C:\xampp\htdocs\dweling\framework\web\CBaseController.php(126): require()
+#17 C:\xampp\htdocs\dweling\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#18 C:\xampp\htdocs\dweling\framework\web\CController.php(784): SiteController->renderFile()
+#19 C:\xampp\htdocs\dweling\protected\controllers\SiteController.php(44): SiteController->render()
+#20 C:\xampp\htdocs\dweling\framework\web\actions\CInlineAction.php(49): SiteController->actionBuy()
+#21 C:\xampp\htdocs\dweling\framework\web\CController.php(308): CInlineAction->runWithParams()
+#22 C:\xampp\htdocs\dweling\framework\web\CController.php(286): SiteController->runAction()
+#23 C:\xampp\htdocs\dweling\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#24 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(282): SiteController->run()
+#25 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\dweling\index.php(13): CWebApplication->run()
+REQUEST_URI=/dweling/site/buy
+in C:\xampp\htdocs\dweling\protected\views\layouts\main.php (80)
+in C:\xampp\htdocs\dweling\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\dweling\protected\controllers\SiteController.php (44)
+2013/11/12 08:21:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "signup".' in C:\xampp\htdocs\dweling\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CController.php(270): CController->missingAction('signup')
+#1 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(282): CController->run('signup')
+#2 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('site/signup')
+#3 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dweling/site/signup
+---
