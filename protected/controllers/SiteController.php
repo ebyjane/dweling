@@ -66,6 +66,30 @@ class SiteController extends Controller
 	{
 		// renders the view file 'protected/views/site/privacy.php'
 		$this->render('privacy');
+	}	
+
+	public function actionBoxlogin()
+	{
+		// renders the view file 'protected/views/site/boxlogin.php'
+		$model=new LoginForm;
+
+		// if it is ajax validation request
+		if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
+		{
+			echo CActiveForm::validate($model);
+			Yii::app()->end();
+		}
+
+		// collect user input data
+		if(isset($_POST['LoginForm']))
+		{
+			$model->attributes=$_POST['LoginForm'];
+			// validate user input and redirect to the previous page if valid
+			if($model->validate() && $model->login())
+				$this->redirect(Yii::app()->user->returnUrl);
+		}
+		// display the login form
+		$this->render('boxlogin',array('model'=>$model));		
 	}		
 	
 	/**

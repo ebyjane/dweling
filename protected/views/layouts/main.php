@@ -44,7 +44,7 @@
             
             <div class="large-4 small-12 columns header_login">
             	<ul class="login-wrap clearfix">
-                	<li class="login"><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/login" class="iframe">Login</a> |</li>
+                	<li class="login"><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/boxlogin" class="iframe">Login</a> |</li>
                     <li class="signup"><a href="#" >Signup</a></li>
                 </ul>
                 <div class="clear"></div>
