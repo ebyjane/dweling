@@ -1781,3 +1781,310 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/dweling/site/signup
 ---
+2013/11/13 12:06:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/border.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/border.p...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/border.png
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 12:06:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading.gif
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 12:06:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/overlay.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/overlay....')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/overlay.png
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 12:06:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading_background.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading_...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading_background.png
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 12:06:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/controls.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/controls...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/controls.png
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 12:09:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/border.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/border.p...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/border.png
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 12:09:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading.gif
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 12:09:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading_background.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading_...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading_background.png
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 12:10:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading_background.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading_...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading_background.png
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 12:10:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading.gif
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 12:11:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading_background.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading_...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading_background.png
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 12:11:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading.gif
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 12:11:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading_background.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading_...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading_background.png
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 12:11:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading.gif
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 12:15:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading_background.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading_...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading_background.png
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 12:15:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading.gif
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 13:04:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading_background.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading_...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading_background.png
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 13:04:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading.gif
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 13:05:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading.gif
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 13:05:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading_background.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading_...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading_background.png
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 13:05:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "loginhtml".' in C:\xampp\htdocs\dweling\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CController.php(270): CController->missingAction('loginhtml')
+#1 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(282): CController->run('loginhtml')
+#2 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('site/loginhtml')
+#3 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dweling/site/loginhtml
+HTTP_REFERER=http://localhost/dweling/
+---
+2013/11/13 13:10:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading.gif
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 13:10:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading_background.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading_...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading_background.png
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 13:10:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "loginhtml.html".' in C:\xampp\htdocs\dweling\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CController.php(270): CController->missingAction('loginhtml.html')
+#1 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(282): CController->run('loginhtml.html')
+#2 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('site/loginhtml....')
+#3 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dweling/site/loginhtml.html
+HTTP_REFERER=http://localhost/dweling/
+---
+2013/11/13 13:11:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading_background.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading_...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading_background.png
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 13:11:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading.gif
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 13:11:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "loginhtml.html".' in C:\xampp\htdocs\dweling\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CController.php(270): CController->missingAction('loginhtml.html')
+#1 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(282): CController->run('loginhtml.html')
+#2 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('site/loginhtml....')
+#3 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dweling/site/loginhtml.html
+HTTP_REFERER=http://localhost/dweling/
+---
+2013/11/13 13:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading.gif
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 13:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading_background.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading_...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading_background.png
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 13:12:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "loginhtml.html".' in C:\xampp\htdocs\dweling\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CController.php(270): CController->missingAction('loginhtml.html')
+#1 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(282): CController->run('loginhtml.html')
+#2 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('site/loginhtml....')
+#3 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dweling/site/loginhtml.html
+HTTP_REFERER=http://localhost/dweling/site/advice
+---
+2013/11/13 13:43:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "loginhtml.html".' in C:\xampp\htdocs\dweling\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CController.php(270): CController->missingAction('loginhtml.html')
+#1 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(282): CController->run('loginhtml.html')
+#2 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('site/loginhtml....')
+#3 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dweling/site/loginhtml.html
+HTTP_REFERER=http://localhost/dweling/site/advice
+---
+2013/11/13 14:44:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading_background.png".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading_...')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading_background.png
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
+2013/11/13 14:44:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in C:\xampp\htdocs\dweling\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dweling\framework\web\CWebApplication.php(141): CWebApplication->runController('images/loading....')
+#1 C:\xampp\htdocs\dweling\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dweling\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dweling/images/loading.gif
+HTTP_REFERER=http://localhost/dweling/css/colorbox.css
+---
