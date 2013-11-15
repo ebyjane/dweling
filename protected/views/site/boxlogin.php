@@ -32,15 +32,14 @@ $this->breadcrumbs=array(
 );
 ?>
 <div class="row">
-<div class="large-8 small-12 columns content-wrap">
-        	<div class="content-part advice-wrap">
-        		<form>
-                      <label>Login</label>
-
-                </form>
-            </div>
-
-<p>Please fill out the following form with your login credentials:</p>
+<div class="large-4 small-12 columns facebook-login">
+	<span>Login with your Facebook Account</span>
+    <a href="#" class="facebook_connect">Login with your facebook</a>
+</div>
+<div class="large-8 small-12 columns login-box">
+        	
+ <h2>Login</h2>
+<small>Please fill out the following form with your login credentials:</small>
 
 <div class="form">
 <?php $form=$this->beginWidget('CActiveForm', array(
@@ -75,7 +74,7 @@ $this->breadcrumbs=array(
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Login'); ?>
+		<?php echo CHtml::submitButton('Login',array('class'=>'blue-btn')); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

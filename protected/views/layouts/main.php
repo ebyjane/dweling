@@ -45,7 +45,7 @@
             <div class="large-4 small-12 columns header_login">
             	<ul class="login-wrap clearfix">
                 	<li class="login"><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/boxlogin" class="iframe">Login</a> |</li>
-                    <li class="signup"><a href="#" >Signup</a></li>
+                    <li class="signup"><a href="#" class="iframe">Signup</a></li>
                 </ul>
                 <div class="clear"></div>
             
@@ -147,7 +147,7 @@
   
   <script>
     $(document).foundation();
-	$(".iframe").colorbox({iframe:true, width:"55%", height:"55%"});
+	$(".iframe").colorbox({iframe:true, width:"60%", height:"67%"});
   </script>
 </body>
 </html>

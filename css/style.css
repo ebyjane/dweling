@@ -216,3 +216,63 @@ footer p a{
 	font-size:14px;
 	color:#ddd;	
 }
+.facebook-login{
+	margin-top:18%;	
+}
+
+.facebook-login span{
+	display:block;
+	font-size:14px;
+	margin-bottom:5px;	
+}
+.facebook_connect{
+	background:url(../images/fb_connect.png) no-repeat;
+	display:block;
+	text-indent:-9999px;
+	width:239px;
+	height:40px;	
+}
+.login-box{
+	border-left:1px solid #ccc;
+	padding-left:40px;	
+}
+.login-box small{
+	font-size:14px;
+	margin:5px;	
+}
+#cboxClose{
+	top:0;	
+}
+.blue-btn{
+	background: #5acedd;
+	background: -moz-linear-gradient(top,  #5acedd 0%, #37cadd 44%, #0dc5dd 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5acedd), color-stop(44%,#37cadd), color-stop(100%,#0dc5dd));
+	background: -webkit-linear-gradient(top,  #5acedd 0%,#37cadd 44%,#0dc5dd 100%);
+	background: -o-linear-gradient(top,  #5acedd 0%,#37cadd 44%,#0dc5dd 100%);
+	background: -ms-linear-gradient(top,  #5acedd 0%,#37cadd 44%,#0dc5dd 100%);
+	background: linear-gradient(to bottom,  #5acedd 0%,#37cadd 44%,#0dc5dd 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5acedd', endColorstr='#0dc5dd',GradientType=0 );
+	padding:4px 20px;
+	border:1px solid #00C5DB;
+	color:#fff;
+	box-shadow:0 1px 1px #000;
+	border-radius:4px;	
+}
+.blue-btn:hover{
+	background: #0dc5dd;
+background: -moz-linear-gradient(top,  #0dc5dd 0%, #37cadd 56%, #5acedd 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0dc5dd), color-stop(56%,#37cadd), color-stop(100%,#5acedd));
+background: -webkit-linear-gradient(top,  #0dc5dd 0%,#37cadd 56%,#5acedd 100%);
+background: -o-linear-gradient(top,  #0dc5dd 0%,#37cadd 56%,#5acedd 100%);
+background: -ms-linear-gradient(top,  #0dc5dd 0%,#37cadd 56%,#5acedd 100%);
+background: linear-gradient(to bottom,  #0dc5dd 0%,#37cadd 56%,#5acedd 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0dc5dd', endColorstr='#5acedd',GradientType=0 );	
+}
+.rememberMe input[type="checkbox"]{
+	float:left;	
+}
+.rememberMe label{
+	left: 7px;
+    position: relative;
+    top: 4px;
+}
