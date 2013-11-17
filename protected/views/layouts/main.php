@@ -44,8 +44,17 @@
             
             <div class="large-4 small-12 columns header_login">
             	<ul class="login-wrap clearfix">
-                	<li class="login"><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/boxlogin" class="iframe">Login</a> |</li>
-                    <li class="signup"><a href="#" class="iframe">Signup</a></li>
+                	<li class="login">
+					<?php $this->widget('zii.widgets.CMenu',array(
+					'items'=>array(
+					array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest),
+					),
+					));
+					if(Yii::app()->user->isGuest){
+					?>
+
+					<a href="<?php echo Yii::app()->request->baseUrl; ?>/site/boxlogin" class="iframe">Login</a> |</li>
+                    <li class="signup"><a href="#" class="iframe">Signup</a></li><?php }?>
                 </ul>
                 <div class="clear"></div>
             

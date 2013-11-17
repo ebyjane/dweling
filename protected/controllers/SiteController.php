@@ -85,8 +85,15 @@ class SiteController extends Controller
 		{
 			$model->attributes=$_POST['LoginForm'];
 			// validate user input and redirect to the previous page if valid
-			if($model->validate() && $model->login())
+			if($model->validate() && $model->login()){
+			
+			echo CHtml::script("parent.location.reload(true);self.close();");
+			
+			/*window.parent.$('#colorbox').css('display','none');window.parent.$('#cboxOverlay').css('display','none');*/
+                Yii::app()->end();
+
 				$this->redirect(Yii::app()->user->returnUrl);
+			}	
 		}
 		// display the login form
 		$this->render('boxlogin',array('model'=>$model));		
@@ -166,4 +173,79 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+	
+	/**
+	 * Registration page
+	 *
+	 **/
+	public function actionRegister()
+	{
+		$this->setPageTitle(Yii::app()->name . ' | Sign Up');
+		$this->layout = '//layouts/main';
+		$model = new RegisterForm();
+		$user = new Users();
+		
+		$error = '';
+		if (isset($_POST) && !empty($_POST))
+		{
+			$model->attributes = $_POST['RegisterForm'];
+			
+			if ($model->validate())
+			{
+				if (!function_exists('password_hash'))
+					require_once YiiBase::getPathOfAlias('ext.bcrypt.bcrypt').'.php';
+				
+				// Bcrypt the initial password instead of just using the basic hashing mechanism
+				$hash = Users::model()->encryptHash(Cii::get($_POST['RegisterForm'], 'email'), Cii::get($_POST['RegisterForm'], 'password'), Yii::app()->params['encryptionKey']);
+				$cost = Cii::getBcryptCost();
+
+				$password = password_hash($hash, PASSWORD_BCRYPT, array('cost' => $cost));
+
+				$user->attributes = array(
+					'email'=>Cii::get($_POST['RegisterForm'], 'email'),
+					'password'=>$password,
+					'firstName'=> NULL,
+					'lastName'=> NULL,
+					'displayName'=>Cii::get($_POST['RegisterForm'], 'displayName'),
+					'user_role'=>1,
+					'status'=>0
+				);
+				
+				try 
+				{
+					if($user->save())
+					{
+						$hash = mb_strimwidth(hash("sha256", md5(time() . md5(hash("sha512", time())))), 0, 16);
+						$meta = new UserMetadata;
+						$meta->user_id = $user->id;
+						$meta->key = 'activationKey';
+						$meta->value = $hash;
+						$meta->save();
+						
+						// Send the registration email
+						$this->sendEmail($user, 'Activate Your Account', '//email/register', array('user' => $user, 'hash' => $hash), true, true);
+					
+						$this->redirect('/register-success');
+						return;
+					}
+				}
+				catch(CDbException $e) 
+				{
+					$model->addError(null, 'The email address has already been associated to an account. Do you want to login instead?');
+				}
+			}
+		}
+
+		$this->render('register', array('model'=>$model, 'error'=>$error, 'user'=>$user));
+	}
+
+	/**
+	 * Handles successful registration
+	 */
+	public function actionRegistersuccess()
+	{
+		$this->setPageTitle(Yii::app()->name . ' | Registration Successful');
+		$this->layout = '//layouts/main';
+		$this->render('register-success');
+	}	
 }
