@@ -11,8 +11,13 @@ class LoginForm extends CFormModel
 	public $password;
 	public $rememberMe;
 
+	private $force = false;
 	private $_identity;
 
+	public function __construct($force=false)
+	{
+		$this->force = $force;
+	}
 	/**
 	 * Declares the validation rules.
 	 * The rules state that username and password are required,
@@ -49,7 +54,7 @@ class LoginForm extends CFormModel
 		if(!$this->hasErrors())
 		{
 			$this->_identity=new UserIdentity($this->username,$this->password);
-			if(!$this->_identity->authenticate())
+			if(!$this->_identity->authenticate($this->force))
 				$this->addError('password','Incorrect username or password.');
 		}
 	}
@@ -65,11 +70,11 @@ class LoginForm extends CFormModel
 			$this->_identity=new UserIdentity($this->username,$this->password);
 			$this->_identity->authenticate();
 		}
+
 		if($this->_identity->errorCode===UserIdentity::ERROR_NONE)
 		{
-			$duration=$this->rememberMe ? 3600*24*30 : 0; // 30 days
+			$duration=$this->rememberMe ? 3600*24 : 0; // 30 days
 			Yii::app()->user->login($this->_identity,$duration);
-
 			return true;
 		}
 		else
