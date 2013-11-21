@@ -33,13 +33,14 @@ $this->breadcrumbs=array(
 ?>
 <div class="row">
 <div class="large-4 small-12 columns facebook-login">
-	<span>Login with your Facebook Account</span>
-    <a href="#" class="facebook_connect">Login with your facebook</a>
+	
 </div>
 <div class="large-8 small-12 columns login-box">
         	
  <h2>Login</h2>
-<small>Please fill out the following form with your login credentials:</small>
+
+	<span>Login with your Facebook Account</span>
+    <a href="#" class="facebook_connect">Login with your facebook</a>
 
 <div class="form">
 <?php $form=$this->beginWidget('CActiveForm', array(

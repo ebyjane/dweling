@@ -9,16 +9,18 @@
   	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-1.9.0.min.js"></script>
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.colorbox-min.js"></script>
 <div class="row">
-<div class="large-4 small-12 columns facebook-login">
-	<span>Login with your Facebook Account</span>
-    <a href="#" class="facebook_connect">Login with your facebook</a>
-</div>
-<div class="large-8 small-12 columns content-wrap">
+
+<div class="large-8 small-12 columns login-box">
 <div class="login-container">
 	<div class="">
 		<div class="well-span">
-			<h4>Register An Account</h4>
-			<br/>
+			<h2>Register An Account</h2>
+			
+            <div class="facebook-wrap">
+            	<span>Sign up with your Facebook Account</span>
+    			<a href="#" class="facebook_connect">Login with your facebook</a>
+            </div>
+            
 			<?php $form=$this->beginWidget('bootstrap.widgets.TbActiveForm', array(
 						'id'					=>	'login-form',
 						'focus'					=>'	input[type="text"]:first',
@@ -74,8 +76,8 @@
 	    	                    'label' => 'Register',
 	    	                    'htmlOptions' => array(
 	    	                        'id' => 'submit-comment',
-	    	                        'class' => 'sharebox-submit pull-right',
-	    	                        'style' => 'margin-top: -4px'
+	    	                        'class' => 'blue-btn'
+	    	                        
 	    	                    )
 	    	                )); ?>
     	            <?php endif; ?>

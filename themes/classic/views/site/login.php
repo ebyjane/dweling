@@ -24,9 +24,9 @@
 						<?php echo $form->PasswordField($model, 'password', array('id'=>'password', 'placeholder'=>'Password')); ?>
 					</div>
 					<div class="login-form-footer">
-						<?php echo CHtml::link('register', Yii::app()->createUrl('/register'), array('class' => 'login-form-links')); ?>
+						<?php echo CHtml::link('register', Yii::app()->createUrl('/Register'), array('class' => 'login-form-links')); ?>
 						<span class="login-form-links"> | </span>
-						<?php echo CHtml::link('forgot', Yii::app()->createUrl('/forgot'), array('class' => 'login-form-links')); ?>
+						<?php echo CHtml::link('forgot', Yii::app()->createUrl('/Forgot'), array('class' => 'login-form-links')); ?>
 						<?php $this->widget('bootstrap.widgets.TbButton', array(
 								'buttonType' => 'submit',
 	    	                    'type' => 'success',

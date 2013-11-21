@@ -10,11 +10,8 @@
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.colorbox-min.js"></script>
 	
 <div class="row">
-<div class="large-4 small-12 columns facebook-login">
-	<span>Login with your Facebook Account</span>
-    <a href="#" class="facebook_connect">Login with your facebook</a>
-</div>
-<div class="large-8 small-12 columns login-box">
+
+<div class="large-12 small-12 columns login-box">
 
 <div class="login-container">
 	<div class="">
@@ -23,11 +20,11 @@
 
 
         	<div class="content-part advice-wrap">
-        		<form>
                       <h2>Login</h2>
-					  <small>Please fill out the following form with your login credentials:</small>	
-					  <p class="note"><i>Fields with <span class="required">*</span> are required.</i></p>
-                </form>
+                      <div class="facebook-wrap">
+					  	<span>Login with your Facebook Account</span>
+    					<a href="#" class="facebook_connect">Login with your facebook</a>
+              		  </div>
             </div>
 
 
@@ -117,13 +114,3 @@
         <!-- content part large-8 ends here -->
 
     </div>
-	<style type="text/css">
-	.rememberMe input[type="checkbox"] {
-	float: left;
-	}
-	.rememberMe label {
-		left: 7px;
-		position: relative;
-		top: 4px;
-	}
-	</style>

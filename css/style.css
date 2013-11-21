@@ -233,13 +233,15 @@ footer p a{
 	height:40px;	
 }
 .login-box{
-	border-left:1px solid #ccc;
-	padding-left:40px;	
+	padding:20px;	
 }
-.login-box small{
-	font-size:14px;
-	margin:5px;	
+.login-box h2{
+	border-bottom:1px solid #555;
+	color:#555;
+	margin-bottom:3px;
+	padding-bottom:3px;	
 }
+
 #cboxClose{
 	top:0;	
 }
@@ -275,4 +277,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0dc5dd', end
 	left: 7px;
     position: relative;
     top: 4px;
+}
+.facebook-wrap{
+	margin:15px auto;
+}
+.facebook-wrap span{
+	font-size:14px;
+	padding-bottom:5px;
+	display:block;	
 }

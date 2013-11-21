@@ -156,7 +156,7 @@
   
   <script>
     $(document).foundation();
-	$(".iframe").colorbox({iframe:true, width:"60%", height:"67%"});
+	$(".iframe").colorbox({iframe:true, width:"30%", height:"50%"});
   </script>
 </body>
 </html>

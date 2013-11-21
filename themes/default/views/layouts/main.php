@@ -68,7 +68,7 @@ A:hover {text-decoration: none}
 					?>
 
 					<a href="<?php echo Yii::app()->request->baseUrl; ?>/site/boxlogin" class="iframe">Login</a> |</li>
-                    <li class="signup"><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/boxregister" class="iframe">Signup</a></li><?php }?>
+                    <li class="signup"><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/boxregister" class="iframe-signup">Signup</a></li><?php }?>
                 </ul>
                 <div class="clear"></div>
             
@@ -170,7 +170,8 @@ A:hover {text-decoration: none}
   
   <script>
     $(document).foundation();
-	$(".iframe").colorbox({iframe:true, width:"60%", height:"67%"});
+	$(".iframe").colorbox({iframe:true, width:"32%", height:"63%"});
+	$(".iframe-signup").colorbox({iframe:true, width:"32%", height:"70%"});
   </script>
 </body>
 </html>

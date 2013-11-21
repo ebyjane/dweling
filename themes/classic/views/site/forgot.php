@@ -32,9 +32,9 @@
 				<?php endif; ?>
 			</div>
 			<div class="login-form-footer">
-				<?php echo CHtml::link('register', Yii::app()->createUrl('/register'), array('class' => 'login-form-links')); ?>
+				<?php echo CHtml::link('register', Yii::app()->createUrl('/Register'), array('class' => 'login-form-links')); ?>
 				<span class="login-form-links"> | </span>
-				<?php echo CHtml::link('login', Yii::app()->createUrl('/login'), array('class' => 'login-form-links')); ?>
+				<?php echo CHtml::link('login', Yii::app()->createUrl('/Login'), array('class' => 'login-form-links')); ?>
 				<?php $this->widget('bootstrap.widgets.TbButton', array(
 								'buttonType' => 'submit',
 	    	                    'type' => 'success',
